@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+
+    <link rel="stylesheet" href="./app/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./app/photon/0.1.2/css/photon.min.css">
+</head>
+
+
+
+
+<body>
+    <div class="window">
+      <div class="window-content">
+        <div class="pane-group">
+          <div class="pane-sm sidebar">
+              <ul class="list-group">
+                <li class="list-group-header">
+                  <input class="form-control" type="text" placeholder="Search for someone">
+                </li>
+                <li class="list-group-item">
+                  <img class="img-circle media-object pull-left" src="/assets/img/avatar.jpg" width="32" height="32">
+                  <div class="media-body">
+                    <strong>List item title</strong>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <img class="img-circle media-object pull-left" src="/assets/img/avatar2.png" width="32" height="32">
+                  <div class="media-body">
+                    <strong>List item title</strong>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </li>
+                ...
+              </ul>
+
+          </div>
+          <div class="pane">
+              <div id="content"></div>
+              <h1>Hello World!</h1> We are using node
+              <script>
+                  document.write(process.versions.node)
+              </script>, Chrome
+              <script>
+                  document.write(process.versions.chrome)
+              </script>, and Electron
+              <script>
+                  document.write(process.versions.electron)
+              </script>
+              and React
+              <script>
+                  document.write(process.versions);
+              </script>
+          </div>
+        </div>
+      </div>
+      <footer class="toolbar toolbar-footer">
+        <h1 class="title">Footer</h1>
+      </footer>
+    </div>
+
+<span class="label label-default">Default</span>
+
+<a href="#">Inbox <span class="badge">42</span></a>
+
+<div class="page-header">
+  <h1>Example page header <small>Subtext for header</small></h1>
+</div>
+    <!--<div id="content"></div> -->
+</body>
+<script src="./app/built/index.js"></script>
+
+</html>
